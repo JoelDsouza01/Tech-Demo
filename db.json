@@ -1,0 +1,19 @@
+{
+    "items":[
+{"id":1,"name":"Fender bullet mustang","image":"assets/images/products/image1.jpg","price":"240.0","rating":5},
+{"id":2,"name":"Fender Telecaster","image":"assets/images/products/image2.jpg","price":"130.5","rating":4},
+{"id":3,"name":"Ibanez GRG170DX-BKN","image":"assets/images/products/image3.jpg","price":"305.0","rating":3},
+{"id":4,"name":"Ibanez TCY12E","image":"assets/images/products/image4.jpg","price":"625.0","rating":3},
+{"id":5,"name":"Ibanez GRX70QA-TKS","image":"assets/images/products/image5.jpg","price":"550.0","rating":5},
+{"id":6,"name":"Ibanez RGA42FM","image":"assets/images/products/image6.jpg","price":"115.0","rating":4},
+{"id":7,"name":"ESP LTD EX-50","image":"assets/images/products/image7.jpg","price":"450.0","rating":3},
+{"id":8,"name":"ESP Viper-10","image":"assets/images/products/image8.jpg","price":"520.0","rating":1},
+{"id":9,"name":"ESP MH-200QM","image":"assets/images/products/image9.jpg","price":"320.0","rating":2},
+{"id":10,"name":"Gibson Les Paul","image":"assets/images/products/image10.jpg","price":"750.0","rating":5},
+{"id":11,"name":"Epiphone Acoustic","image":"assets/images/products/image11.jpg","price":"150.0","rating":4},
+{"id":12,"name":"Fender SA135C","image":"assets/images/products/image12.jpg","price":"120.5","rating":2},
+{"id":13,"name":"Granada GL1130","image":"assets/images/products/image13.jpg","price":"90.5","rating":4},
+{"id":15,"name":"Cort Acoustic","image":"assets/images/products/image15.jpg","price":"100.5","rating":5},
+{"id":16,"name":"Yamaha FS80C","image":"assets/images/products/image16.jpg","price":"120.0","rating":3}
+]
+}
