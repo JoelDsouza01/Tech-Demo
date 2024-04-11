@@ -1,12 +1,33 @@
 <div class="column gap-1 wrapper">
     <img [src]="item.image" alt="Guitar Thumbnail">
-    <h2 class="title">{{item.name}}</h2>
+    <h2 class="title">{{item.name| truncateName : 16 : "..." }}</h2>
 
     <div class="row gap-05">
         <span class="price-label">Price:</span>
-        <span class="price">${{item.price}}</span>
-    </div>
-    <p-rating [(ngModel)]="item.rating"
+        <span class="price">{{ item.price | price }}</span>
+      </div>
+    <p-rating 
+    [(ngModel)]="item.rating"
     [readonly]="true"
-    iconCancelClass="hidden"></p-rating>
+    iconCancelClass="hidden">
+    </p-rating>
+
+    <div class="row gap-05">
+        <button
+          type="button"
+          pButton
+          icon="pi pi-pencil"
+          (click)="editItem()"
+          label="Edit"
+        ></button>
+        <button
+          type="button"
+          pButton
+          icon="pi pi-trash"
+          (click)="confirmDelete()"
+          label="Delete"
+          class="p-button-danger"
+          #deleteButton
+        ></button>
+      </div>
 </div>

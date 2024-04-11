@@ -16,5 +16,17 @@ export class ItemsService {
       params,
       responseType:'json',
     });
-  }
+  };
+
+  addItem = (url: string, body: any): Observable<any> => {
+    return this.apiService.post(url, body, {});
+  };
+
+  editItem = (url: string, body: any): Observable<any> => {
+    return this.apiService.put(url, body, {});
+  };
+
+  deleteItem = (url: string): Observable<any> => {
+    return this.apiService.delete(url, {});
+  };
 }

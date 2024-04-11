@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Optionstypes } from '../../Interfaces/Optiontypes';
+import { Item, Optionstypes } from '../../Interfaces/Optiontypes';
 
 @Injectable({
   providedIn: 'root'
@@ -15,4 +15,17 @@ export class ApiService {
   get<T>(url: string, options?:Optionstypes): Observable<T>{
     return this.httpClient.get<T>(url, options) as Observable<T>;
   }
+
+  post<T>(url: string, body: Item, options: Optionstypes): Observable<T> {
+    return this.httpClient.post<T>(url, body, options) as Observable<T>;
+  }
+
+  put<T>(url: string, body: Item, options: Optionstypes): Observable<T> {
+    return this.httpClient.put<T>(url, body, options) as Observable<T>;
+  }
+
+  delete<T>(url: string, options: Optionstypes): Observable<T> {
+    return this.httpClient.delete<T>(url, options) as Observable<T>;
+  }
+
 }
