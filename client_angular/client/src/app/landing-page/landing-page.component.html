@@ -1,5 +1,13 @@
-<div class="column">
+<div class="column gap-1">
     <div class="row wrap gap-1 space-between">
-        <app-items *ngFor="let item of items" [item]="item"></app-items>
+        <app-items *ngFor="let item of items" [item]="item"(itemOutput)="onItemOutput($event)"></app-items>
+    </div>
+    <div class="row gap-1">
+        <p-paginator
+        [rows]="rows"
+        [totalRecords]="totalRecords"
+        [rowsPerPageOptions]="[6, 12, 20]"
+        (onPageChange)="onPageChange($event)"
+        #paginator></p-paginator>
     </div>
 </div>

@@ -2,9 +2,9 @@
     <img [src]="item.image" alt="Guitar Thumbnail">
     <h2 class="title">{{item.name}}</h2>
 
-    <div class="row">
-        <span class="price-label">Price: $</span>
-        <span class="price">{{item.price}}</span>
+    <div class="row gap-05">
+        <span class="price-label">Price:</span>
+        <span class="price">${{item.price}}</span>
     </div>
     <p-rating [(ngModel)]="item.rating"
     [readonly]="true"

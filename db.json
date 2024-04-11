@@ -1,6 +1,6 @@
 {
     "items":[
-{"id":1,"name":"Fender bullet mustang","image":"assets/images/products/image1.jpg","price":"240.0","rating":5},
+{"id":1,"name":"ARIA 212 MK2","image":"assets/images/products/image1.jpg","price":"999.0","rating":5},
 {"id":2,"name":"Fender Telecaster","image":"assets/images/products/image2.jpg","price":"130.5","rating":4},
 {"id":3,"name":"Ibanez GRG170DX-BKN","image":"assets/images/products/image3.jpg","price":"305.0","rating":3},
 {"id":4,"name":"Ibanez TCY12E","image":"assets/images/products/image4.jpg","price":"625.0","rating":3},
