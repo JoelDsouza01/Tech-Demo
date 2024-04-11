@@ -24,6 +24,8 @@ import { TruncateNamePipe } from '../../pipes/truncate-name.pipe';
 export class ItemsComponent {
   constructor(private confirmationService: ConfirmationService) {}
 
+  @ViewChild('deleteButton') deleteButton: any;
+  
   @Input() item!: Item;
   @Output() edit: EventEmitter<Item> = new EventEmitter<Item>();
   @Output() delete: EventEmitter<Item> = new EventEmitter<Item>();

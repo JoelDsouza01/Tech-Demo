@@ -4,10 +4,11 @@
         <a
           routerLink="/"
           routerLinkActive="active"
-        
+          [routerLinkActiveOptions]="{ exact: true }"
           >Home</a
         >
         <a routerLink="/about-us" routerLinkActive="active">About Us</a>
+        <a routerLink="/contact-us" routerLinkActive="active">Contact Us</a>
       </div>
 </header>
   

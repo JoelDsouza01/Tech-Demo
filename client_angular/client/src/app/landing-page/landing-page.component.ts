@@ -4,14 +4,14 @@ import { CommonModule } from '@angular/common';
 import { ItemsService } from '../services/items.service';
 import { ItemsComponent } from '../components/items/items.component';
 import { Paginator, PaginatorModule  } from 'primeng/paginator';
-import { EditPopupComponent } from '../components/edit-popup/edit-popup.component';
 import { ButtonModule } from 'primeng/button';
+import { EditPopupComponent } from '../components/edit-popup/edit-popup.component';
 
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [ItemsComponent, CommonModule , PaginatorModule EditPopupComponent, ButtonModule,],
+  imports: [ItemsComponent, CommonModule , PaginatorModule, EditPopupComponent, ButtonModule,],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.scss'
 })

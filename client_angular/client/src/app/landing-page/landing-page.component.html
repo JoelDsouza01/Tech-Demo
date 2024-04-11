@@ -24,3 +24,16 @@
         (onPageChange)="onPageChange($event)"
         #paginator></p-paginator>
 </div>
+
+<app-edit-popup
+  [item]="selectedItem"
+  [(display)]="displayEditPopup"
+  (confirm)="onConfirmEdit($event)"
+  header="Edit Item"
+></app-edit-popup>
+
+<app-edit-popup
+  [(display)]="displayAddPopup"
+  (confirm)="onConfirmAdd($event)"
+  header="Add Item"
+></app-edit-popup>
