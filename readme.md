@@ -1,4 +1,4 @@
-# Tech Demo Assignment COMPSCI 732- Developed by Joel Dsouza (Student ID: 497241513) 
+# Tech Demo Assignment 1 COMPSCI 732- Developed by Joel Dsouza (Student ID: 497241513) 
 
 This server provides the backend functionality for the Angular frontend, allowing users to perform CRUD (Create, Read, Update, Delete) operations on products. The server utilizes Express and interacts with a JSON file to manage product data.
 
@@ -7,8 +7,9 @@ This server provides the backend functionality for the Angular frontend, allowin
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Running](#running)
+  - [Installation guide](#installation)
+- [Implementation](#running)
+- [References](#references)
 
 ## Features
 - **Front End:** The website is built using angular framework.
@@ -36,7 +37,7 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-## Usage
+## Implementation
 
 1. Run the server:
    ```bash
@@ -45,3 +46,7 @@ Before you begin, ensure you have the following installed:
 2. The server will be running on http://localhost:3000/.
 
 3. The Angular frontend will interact with these API endpoints to perform CRUD operations on products.
+
+## References
+1) [Angular Docs]: (https://angular.io/guide/setup-local)
+2) 
